@@ -1,0 +1,124 @@
+.order{
+    padding: 20px;
+}
+
+.orderContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.leftCont {
+    margin-left: 20px;
+    width: 30%;
+    height: 500px;
+    position: sticky;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+}
+
+.orderName {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.orderOption {
+    width: 100%;
+}
+
+.deliveryOption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optionTitle {
+    font-size: 20px;
+}
+
+.pickupOption>input{
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.address>label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.address>input {
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 75%;
+    height: 60px;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.orderSummary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summaryTitle {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subtotal, .shippingFee {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.total {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.paymentBtn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    width: 200px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.rightContainer {
+    width: calc(60%);
+    margin-right: 20px;
+    box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+}

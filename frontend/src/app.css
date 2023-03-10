@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

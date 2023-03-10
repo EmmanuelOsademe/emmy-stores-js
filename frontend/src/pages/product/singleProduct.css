@@ -1,0 +1,139 @@
+.singleProduct {
+    padding: 20px;
+    margin-top: 30px;
+    border: none;
+}
+
+.singleProductContainer {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.singleProductLeft {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-right: 20px;
+}
+
+.singleProductImg {
+    width: 450px;
+    height: 500px;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.singleProductRight {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+}
+
+.singleProductName {
+    margin: 10px 20px 0 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singleProductBrand {
+    margin: 10px 20px 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.singleProductPrice {
+    margin: 10px 20px 0 20px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.singleProductBtns {
+    margin: 10px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+}
+
+.singleProductQuantity {
+    font-size: 18px;
+    font-weight: 600;
+    height: inherit;
+    margin: 10px 20px 0 0;
+}
+
+.decrementBtn, .incrementBtn {
+    width: 40px;
+    height: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1.5px solid cornflowerblue;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+.quantityBtn {
+    border: none;
+    background-color: inherit;
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.addToCartBtn {
+    height: 40px;
+    margin: 10px 20px 10px 20px;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.otherBtnsContainer {
+    display: flex;
+    margin: 0px 20px 10px 20px;
+    justify-content: space-between;
+}
+
+.backToCartBtn, .proceedToCheckoutBtn {
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 300px;
+    background-color: inherit;
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+}
+
+.singleProductDescTitle {
+    margin: 10px 20px 0 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(26, 24, 24);
+    font-style: italic;
+}
+
+.singleProductDesc {
+    margin: 5px 20px 0 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-align: justify;
+}
+

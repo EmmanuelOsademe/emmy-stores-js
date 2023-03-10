@@ -1,0 +1,21 @@
+.paymentCompletion {
+    margin: auto auto;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.homepageIcon {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1.5px solid cornflowerblue;
+    border-radius: 10px;
+    cursor: pointer;
+}

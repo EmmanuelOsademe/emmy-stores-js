@@ -1,0 +1,17 @@
+.pay {
+    margin: auto auto;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(77,74,74,0.75);
+}
+
+.payHeader {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+}
+
+.sidebarContainer {
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(240, 240, 259);
+    position: sticky;
+    top: 50px;
+}
+
+.mainPage {
+    flex: 4;
+    height: calc(100vh - 50px);
+    width: auto;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInputsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: auto;
+}
+
+.productInfoItem {
+    display: flex;
+}
+
+.productInfoItem>label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productInfoItem>input {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+.descContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descInput {
+    width: 600px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.descLabel {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.createProductBtn {
+    width: 150px;
+    border: none;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 20px 0px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
